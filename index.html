@@ -22,13 +22,17 @@
       "image": "https://rehmat.works/me.jpeg",
       "jobTitle": "Software Developer",
       "worksFor": { "@id": "https://proapis.com/#org" },
-      "homeLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressRegion": "Gilgit-Baltistan", "addressCountry": "PK" } },
-      "knowsAbout": ["Python", "Kubernetes", "FastAPI", "Django", "Elasticsearch", "MongoDB", "API design", "Web scraping", "Unix/Linux", "Data pipelines"],
+      "homeLocation": {
+        "@type": "Place",
+        "address": { "@type": "PostalAddress", "addressRegion": "Gilgit-Baltistan", "addressCountry": "PK" }
+      },
+      "knowsAbout": ["Python","Kubernetes","FastAPI","Django","Elasticsearch","MongoDB","API design","Web scraping","Unix/Linux","Data pipelines"],
       "sameAs": [
         "https://github.com/rehmatworks",
         "https://www.youtube.com/@RehmatAlam",
         "https://www.instagram.com/rehmatworks"
-      ]
+      ],
+      "mainEntityOfPage": { "@id": "https://rehmat.works/#webpage" }
     },
     {
       "@type": "Organization",
@@ -50,11 +54,13 @@
       "url": "https://rehmat.works/",
       "about": { "@id": "https://rehmat.works/#person" },
       "isPartOf": { "@id": "https://rehmat.works/#website" },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "mainEntity": { "@id": "https://rehmat.works/#person" }
     }
   ]
 }
 </script>
+
     <script>
         tailwind.config = {
             theme: {
